@@ -1,0 +1,9 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LetMeIn.MainPage">
+
+  <VerticalStackLayout Margin="30" x:Name="container">
+    <Button x:Name="rqst" Clicked="Request" CornerRadius="25" WidthRequest="{Binding Width, Source={x:Reference container}}" HeightRequest="{Binding Height, Source={x:Reference container}}" FontSize="30"/>
+
+  </VerticalStackLayout>
+</ContentPage>
